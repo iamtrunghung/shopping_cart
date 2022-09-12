@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+}
+
+.footer_layout {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_first p a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer_second p a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer_third p a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer_fourth p a {
+    text-decoration: none;
+    color: #333;
+}
+.copyright{
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    font-size: 18px;
+}

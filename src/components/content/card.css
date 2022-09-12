@@ -1,0 +1,99 @@
+.card-layout {
+    width: 100%;
+}
+
+.card-body {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pro-title {
+    text-align: center;
+    color: #888;
+    margin: 25px 0;
+    font-size: 35px;
+}
+
+.card {
+    width: 230px;
+    height: 370px;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 10px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .24s ease-in-out;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-content p {
+    font-size: 19px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    color: #444444;
+}
+
+.card-button {
+    margin-top: 10px;
+}
+
+.card-button button {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+.cart {
+    width: 100%;
+}
+
+.cart-body {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-img {
+    margin: 15px;
+    width: 75px
+}
+.cart-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart-tool button{
+    border: none;
+    margin-left: 5px;
+    width: 25px;
+    background-color: skyblue;
+    border-radius: 50px;
+}
+.cart-remove button {
+    padding: 6px 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.total{
+    text-align: right;
+    margin-right: 50px;
+}

@@ -1,0 +1,39 @@
+.wrapper{
+    width: 100%;
+    background-color:#191919;
+}
+.heading{
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: auto;
+}
+.heading-tags{
+    display: flex;
+    font-size: 18px;
+    list-style-type: none;
+}
+.heading-title {
+    color: #fff;
+}
+.heading-title span{
+    color: rgb(244, 244, 33);
+}
+.heading-tags li{
+    padding: 10px;
+}
+.heading-tags li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.heading-tags li a:hover{
+    color: rgb(225, 225, 9);
+
+}
+.shopping-cart p{
+    color: #fff;
+    cursor: pointer;
+}
